@@ -4,6 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/bg_header.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_earth.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_jupiter.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_mars.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_mercury.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_moon.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_neptune.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_saturn.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_sun.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_uranus.xml" value="0.178" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_venus.xml" value="0.178" />
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
