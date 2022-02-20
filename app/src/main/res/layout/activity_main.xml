@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primary"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,9 +12,10 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:background="@drawable/bg_header"
+        android:fontFamily="@font/poppins_semibold"
         android:gravity="start|bottom"
-        android:paddingLeft="16sp"
-        android:paddingBottom="10sp"
+        android:paddingStart="15dp"
+        android:paddingBottom="5dp"
         android:text="Planeto"
         android:textColor="@color/white"
         android:textSize="26sp"
@@ -23,8 +25,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/my_recycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
