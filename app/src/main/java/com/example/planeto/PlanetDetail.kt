@@ -2,6 +2,7 @@ package com.example.planeto
 
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_planet_detail.*
 
@@ -21,6 +22,14 @@ class PlanetDetail : AppCompatActivity() {
         planetObject = intent.getParcelableExtra("DATA")!!
 
         setData(planetObject)
+
+        book_info.setOnClickListener {
+            Toast.makeText(
+                this,
+                "Oooppss!!! Currently the service is not provided",
+                Toast.LENGTH_LONG
+            ).show()
+        }
     }
 
     private fun setData(planetObject: PlanetData) {
