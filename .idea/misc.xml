@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/background_footer.xml" value="0.178" />
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/bg_header.xml" value="0.178" />
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_earth.xml" value="0.178" />
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_jupiter.xml" value="0.178" />
@@ -15,6 +16,7 @@
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_uranus.xml" value="0.178" />
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/drawable/ic_venus.xml" value="0.178" />
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/layout/activity_planet_detail.xml" value="0.25" />
         <entry key="..\:/Users/SHIVAM/AndroidStudioProjects/Planeto/app/src/main/res/layout/view.xml" value="0.25" />
       </map>
     </option>

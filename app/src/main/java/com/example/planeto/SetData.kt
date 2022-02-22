@@ -4,7 +4,7 @@ object SetData {
 
     fun setPlanets(): List<PlanetData> {
 
-        var planetList = mutableListOf<PlanetData>()
+        val planetList = mutableListOf<PlanetData>()
 
         planetList.add(
             PlanetData(

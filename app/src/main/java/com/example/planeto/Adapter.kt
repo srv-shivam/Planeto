@@ -1,5 +1,6 @@
 package com.example.planeto
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.view.view.*
 
-class Adapter(var planet: List<PlanetData>) : RecyclerView.Adapter<Adapter.MyViewHolder>() {
+class Adapter(private var planet: List<PlanetData>) : RecyclerView.Adapter<Adapter.MyViewHolder>() {
 
     class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val title: TextView = view.title
@@ -29,6 +30,12 @@ class Adapter(var planet: List<PlanetData>) : RecyclerView.Adapter<Adapter.MyVie
         holder.galaxy.text = planet[position].galaxy
         holder.distance.text = "${planet[position].distance} m km"
         holder.gravity.text = "${planet[position].gravity} m/s²"
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(holder.itemView.context, PlanetDetail::class.java)
+            intent.putExtra("DATA", planet[position])
+            holder.itemView.context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {
